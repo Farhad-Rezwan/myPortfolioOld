@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  build:
+    command:
+      - echo nothing to do yet
+
+
+artifacts:
+  - index.html
+  - favicon.ico
+  - Farhad_Resume.pdf
+  - images/*
+  - styles/main.css
