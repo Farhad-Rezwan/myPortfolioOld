@@ -21,7 +21,7 @@ const data = [
     id: 3,
     icon: <FaGithubSquare className="social-icon"></FaGithubSquare >,
     url: "https://github.com/Farhad-Rezwan",
-  },
+  }
 ]
 const links = data.map(link => {
   return (
