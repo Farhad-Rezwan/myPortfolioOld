@@ -2,7 +2,16 @@ import React from "react"
 import Layout from "../components/Layout"
 
 const contact = () => {
-  return <h2>contact page</h2>
+  return (
+    <Layout>
+      <div>
+        <h3 className="project-info">Contact Page - coming soon</h3>
+      </div>
+      <div>
+        <p className="projects-page">please refer to home and projects</p>
+      </div>
+    </Layout>
+  )
 }
 
 export default contact
