@@ -28,12 +28,12 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://my-portfolio-farhad.herokuapp.com`,
+        apiURL: `https://portfolio-farhadrezwan-api.herokuapp.com`,
         queryLimit: 1000, // Default to 100
         // contentTypes : [`jobs`], `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`, `projects`],
+        contentTypes: [`jobs`, `projects`, `blogs`],
         // singleTypes: [`about`],
       },
     },
