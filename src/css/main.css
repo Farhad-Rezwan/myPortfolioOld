@@ -836,7 +836,8 @@ Footer
 .footer h4 {
   margin-top: 0.5rem;
   color: var(--clr-white);
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 0.1rem;
   text-transform: uppercase;
 }
 .footer h4 span {

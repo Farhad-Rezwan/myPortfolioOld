@@ -1,22 +1,22 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaAppStoreIos, FaAndroid } from "react-icons/fa"
 export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `REACT, NodeJS, Strapi, Gatsby, AWS and others`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <FaAppStoreIos className="service-icon" />,
+    title: "iOS Development",
+    text: `SWIFT, refer to iOS projects in Projects section`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    title: "Android Development",
+    text: `Android, refer to android sample projects in Projects section`,
   }
 ]
