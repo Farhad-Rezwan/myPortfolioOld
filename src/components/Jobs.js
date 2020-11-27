@@ -31,7 +31,7 @@ const Jobs = () => {
 
   return (
     <section className="section jobs">
-      <Title title="experiance" />
+      <Title title="experience" />
       <div className="jobs-center">
         {/* button contaiuber */}
         <div className="btn-container">
@@ -62,7 +62,7 @@ const Jobs = () => {
         </article>
       </div>
       <Link to="/about" className="btn center-btn">
-        mroe info
+        More Info
       </Link>
     </section>
   )
