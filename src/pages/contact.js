@@ -8,7 +8,9 @@ const contact = () => {
         <h3 className="project-info">Contact Page - coming soon</h3>
       </div>
       <div>
-        <p className="projects-page">please refer to home and projects</p>
+        <p className="projects-page">
+          please refer to home and projects, & email: farhad.rezwan@gmail.com
+        </p>
       </div>
     </Layout>
   )
