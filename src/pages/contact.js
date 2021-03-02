@@ -9,7 +9,8 @@ const contact = () => {
       </div>
       <div>
         <p className="projects-page">
-          please refer to home and projects, & email: farhad.rezwan@gmail.com
+          please refer to home and projects. For know about me email:
+          farhad.rezwan@gmail.com
         </p>
       </div>
     </Layout>
