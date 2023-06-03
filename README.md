@@ -1,2 +1,2 @@
 ## Setup Notes
-Updated the blogs and deployed again. something else
+Updated the blogs and deployed again.
