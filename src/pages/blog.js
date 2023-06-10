@@ -5,14 +5,14 @@ import Blogs from "../components/Blogs"
 
 const Blog = ({
   data: {
-    allStrapiBlogs: { nodes: blogs },
+    allStrapiBlogs: { nodes: blogs = [] },
   },
 }) => {
   return (
     <Layout>
-    <section className="blog-page">
-      <Blogs blogs={blogs} title="All Blogs"/>
-    </section>
+      <section className="blog-page">
+        <Blogs blogs={blogs} title="All Blogs" />
+      </section>
     </Layout>
   )
 }
